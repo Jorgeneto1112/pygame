@@ -1,0 +1,2 @@
+# pygame
+tirar 10
