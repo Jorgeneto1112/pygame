@@ -1,15 +1,15 @@
 import pygame
 
 pygame.init()
-WIDTH = 500
-HEIGHT = 400
+WIDTH = 700
+HEIGHT = 600
 window = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption('Hello World!')
 
 game = True
 
-image = pygame.image.load('grama.jpeg').convert()
-image = pygame.transform.scale(image, (520, 500))
+grama = pygame.image.load('grama 2.webp').convert()
+grama = pygame.transform.scale(grama, (WIDTH, HEIGHT))
 
 while game:
 
@@ -19,8 +19,8 @@ while game:
             game = False
 
     window.fill((0, 0, 0))  
-    window.blit(image, (-10, 0))
-
+    window.blit(grama, (0, 0))
+    
     pygame.display.update() 
 
 pygame.quit()
