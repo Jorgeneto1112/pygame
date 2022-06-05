@@ -17,7 +17,7 @@ pedra = pygame.transform.scale(pedra, (130, 100))
 
 while game:
 
-    for event in pygame.event.get():
+    for event in pygame.event.get():      
 
         if event.type == pygame.QUIT:
             game = False
