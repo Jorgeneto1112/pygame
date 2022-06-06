@@ -20,7 +20,7 @@ image = pygame.image.load('pygame/imagens/trator capotado.webp').convert()
 image_menor = pygame.transform.scale(image, (500, 400))
 
 pygame.mixer.music.load('pygame/audio/musica final.mp3')
-pygame.mixer.music.set_volume(0.4)
+pygame.mixer.music.set_volume(50)
 pygame.mixer.music.play(loops=-1)
 
 while game:
