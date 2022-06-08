@@ -444,7 +444,7 @@ while jogao==True:
             image = pygame.image.load('imagens/telai.jpg').convert()
             image_menor = pygame.transform.scale(image, (1000, 800))
 
-            pygame.mixer.music.load('audio/musica sertanejo.mp3')
+            pygame.mixer.music.load('audio/audio sertanejo.mp3')
             pygame.mixer.music.set_volume(0.4)
             pygame.mixer.music.play(loops=-1)
 
