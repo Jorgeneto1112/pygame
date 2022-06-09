@@ -12,5 +12,6 @@ Nossa equipe buscou desenvolver um jogo relacionado com o lugar de origem de um 
  O jogo irá envolver um trator que o jogador irá controlar para desviar dos diferentes animais que iram surgindo, sua pontuação dependerá de quanto tempo o indivíduo sobreviver e a partir de uma certa pontuação, aparecera galões diesel que fornecera o jogador com vidas. Ao morrer você irá perder vidas, representadas por galões de gasolina e um som de um animal gritando tocará, quando os galões acabarem você perdeu o jogo e a tela final aparecera. 
 # Como executar o jogo:
 O arquivo a ser executado deve ser o nomeado, jogo_completo.py, para ele funcionar você irá precisar do arquivo com as imagens, áudios e o PressStart2P.ttf.
-
+# Link do vídeo do gameplay do jogo:
+https://youtu.be/MdmhEayhVBA
 
